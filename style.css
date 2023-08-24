@@ -323,7 +323,7 @@ h5 {
 
 @media screen and (min-width: 1000px) {
   body {
-    padding: 1rem 10vw;
+    padding: 1rem 8vw;
   }
   ul {
     font-weight: 100;
@@ -373,8 +373,9 @@ h5 {
 
   .orderDetails {
     /* width: fit-content; */
-    margin-top: -7vh;
-    margin-left: 65vw;
+    position: absolute;
+    margin-top: -8.5vh;
+    margin-left: 55vw;
   }
 
   .lightBoxBigProd,
