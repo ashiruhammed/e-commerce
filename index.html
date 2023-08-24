@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-COMMERCE WEBSITE</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="./js/controller.js"></script>
+  </head>
+  <body>
+    <div class="app">
+      <div class="nav">
+        <div>
+          <img src="./images/icon-menu.svg" alt="" class="menu" />
+          <img
+            src="./images/icon-close.svg"
+            alt=""
+            class="menu menu--close hide"
+          />
+          <img src="./images/logo.svg" alt="" />
+        </div>
+        <div class="list">
+          <ul>
+            <li>Collections</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="orderDet">
+          <div class="cartCont">
+            <p class="hide">1</p>
+            <img src="./images/icon-cart.svg" alt="" class="icon-cart" />
+          </div>
+          <img src="./images/image-avatar.png" alt="" class="avatar" />
+        </div>
+      </div>
+      <div class="hero">
+        <div class="prodCont">
+          <div class="bigProd">
+            <div class="slide slide--1">
+              <img src="./images/image-product-1.jpg" alt="" />
+            </div>
+            <div class="slide slide--2">
+              <img src="./images/image-product-2.jpg" alt="" />
+            </div>
+            <div class="slide slide--3">
+              <img src="./images/image-product-3.jpg" alt="" />
+            </div>
+            <div class="slide slide--4">
+              <img src="./images/image-product-4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="smallProd">
+            <img
+              src="./images/image-product-1-thumbnail.jpg"
+              alt=""
+              id="0"
+              class="currentImage smallProdImg"
+            />
+            <img
+              src="./images/image-product-2-thumbnail.jpg"
+              alt=""
+              id="1"
+              class="smallProdImg"
+            />
+            <img
+              src="./images/image-product-3-thumbnail.jpg"
+              alt=""
+              id="2"
+              class="smallProdImg"
+            />
+            <img
+              class="smallProdImg"
+              id="3"
+              src="./images/image-product-4-thumbnail.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="companyDet">
+          <h4>SNEAKER COMPANY</h4>
+          <h1>Fall Limited Edition Sneakers</h1>
+          <p>
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they'll withstand everything
+            the weather can offer/p>
+          </p>
+          <div class="priceCont">
+            <div>
+              <h2>$125.00</h2>
+              <h4>50%</h4>
+            </div>
+            <h5>$250.00</h5>
+          </div>
+          <div class="orderBtnCont">
+            <button class="quantityBtn">
+              <img
+                src="./images/icon-minus.svg"
+                alt=""
+                class="minusBtn quantBtn"
+              />
+              <h4 class="orderNum">0</h4>
+              <img
+                src="./images/icon-plus.svg"
+                alt=""
+                class="addBtn quantBtn"
+              />
+            </button>
+            <button class="orderBtn">
+              <img src="./images/icon-cart.svg" alt="" />
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="orderDetails">
+          <h3>Cart</h3>
+          <div class="cartDiv">
+            <!-- <div>
+              <div>
+                <img
+                  src="./images/image-product-1-thumbnail.jpg"
+                  alt=""
+                  class="cartImage"
+                />
+                <div>
+                  <p>Fall Limitied Edition Sneakers</p>
+                  <p>$125.00 x <span>$375.00</span></p>
+                </div>
+              </div>
+              <img src="./images/icon-delete.svg" alt="" />
+            </div>
+            <button>Checkout</button> -->
+          </div>
+        </div>
+      </div>
+      <div class="control_slide">
+        <div class="prev controller">
+          <img src="./images/icon-previous.svg" alt="" />
+        </div>
+        <div class="controller next">
+          <img src="./images/icon-next.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="lightBox hideLightBox">
+      <div class="lightBoxProdCont">
+        <img src="./images/icon-close.svg" alt="" class="closeLightBox" />
+        <div class="lightBoxBigProd">
+          <div class="lightBoxSlide lightBoxSlide--1">
+            <img src="./images/image-product-1.jpg" alt="" />
+          </div>
+          <div class="lightBoxSlide lightBoxSlide--2">
+            <img src="./images/image-product-2.jpg" alt="" />
+          </div>
+          <div class="lightBoxSlide lightBoxSlide--3">
+            <img src="./images/image-product-3.jpg" alt="" />
+          </div>
+          <div class="lightBoxSlide lightBoxSlide--4">
+            <img src="./images/image-product-4.jpg" alt="" />
+          </div>
+        </div>
+        <div class="lightBoxSmallProd">
+          <img
+            src="./images/image-product-1-thumbnail.jpg"
+            alt=""
+            id="0"
+            class="lightBoxSmallProdImg currentImage"
+          />
+          <img
+            src="./images/image-product-2-thumbnail.jpg"
+            alt=""
+            id="1"
+            class="lightBoxSmallProdImg"
+          />
+          <img
+            src="./images/image-product-3-thumbnail.jpg"
+            alt=""
+            id="2"
+            class="lightBoxSmallProdImg"
+          />
+          <img
+            class="lightBoxSmallProdImg"
+            id="3"
+            src="./images/image-product-4-thumbnail.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="lightBoxControl_slide">
+        <div class="lightBoxPrev lightBoxController">
+          <img src="./images/icon-previous.svg" alt="" />
+        </div>
+        <div class="lightBoxController lightBoxNext">
+          <img src="./images/icon-next.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="overlay hide"></div>
+  </body>
+</html>
