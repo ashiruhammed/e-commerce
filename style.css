@@ -469,7 +469,7 @@ h5 {
   }
 
   .closeLightBox {
-    margin-top: 20px;
+    margin-top: 5vh;
     margin-left: 95%;
     cursor: pointer;
     filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7448%)
