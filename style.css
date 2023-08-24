@@ -308,6 +308,8 @@ h5 {
 }
 
 @media screen and (min-width: 500px) {
+
+
   .bigProd {
     min-height: 70vh;
     max-height: 70vh;
@@ -320,6 +322,9 @@ h5 {
 }
 
 @media screen and (min-width: 1000px) {
+  body {
+    padding: 1rem 10vw;
+  }
   ul {
     font-weight: 100;
     display: flex;
@@ -352,7 +357,7 @@ h5 {
   }
 
   .nav {
-    padding: 1rem 4rem 0;
+    padding: 0;
     align-items: center;
 
     border-bottom: 1.7px solid hsl(220, 14%, 75%);
@@ -361,7 +366,7 @@ h5 {
   .hero {
     margin-top: 2rem;
     display: flex;
-    padding: 0 4rem 2.5rem;
+    padding: 0 0 2.5rem;
     column-gap: 6rem;
     justify-content: space-between;
   }
