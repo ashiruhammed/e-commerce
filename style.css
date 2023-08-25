@@ -106,6 +106,7 @@ ul {
 .menu--close {
   z-index: 999999999;
   position: relative;
+  position: fixed;
 }
 .hero {
   position: relative;
