@@ -9,7 +9,7 @@ body {
   margin: 0;
   position: relative;
   overflow-x: hidden;
-  height: 100vh;
+
 }
 
 .app {
@@ -86,7 +86,7 @@ ul {
 }
 
 .list {
-  position: absolute;
+  position: fixed;
   background: white;
   left: 0;
   top: 0;
@@ -149,7 +149,7 @@ ul {
 .overlay {
   background: black;
   opacity: 75%;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 80%;
